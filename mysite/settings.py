@@ -25,7 +25,7 @@ SECRET_KEY = '#1ryq=jvperwimaz3r)1&)&v=fd#c-ovefrtr(kt8du((b@a#x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -88,7 +88,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'ko'
 
-TIME_ZONE = 'Asia/Daejeon'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
